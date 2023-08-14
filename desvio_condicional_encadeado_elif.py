@@ -8,7 +8,7 @@ num = int(input("Informe um número: "))
 
 if (num < 100):
     print(f"{num} está abaixo de 100.")
-elif (num <= 200)
+elif (num <= 200):
     print(f"{num} está entre 100 e 200.")
 else:
     print(f"{num} está acima de 200.")
