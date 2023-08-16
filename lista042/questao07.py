@@ -7,8 +7,8 @@ num = int(input("Me diga um número: "))
 num2 = int(input("Me diga outro número: "))
 
 if (num > num2):
-    print(f"{num} é maior que {num2}")
+    print(f"{num} é o maior número e {num2} é o menor número.")
 if (num2 > num):
-    print(f"{num2} é maior que {num}")
+    print(f"{num2} é o maior número e {num} é o menor número.")
 if (num == num2):
-    print(f"{num} é igual a {num2}")
+    print("Ambos os números são iguais.")
